@@ -1,0 +1,108 @@
+
+name: Message of the Day
+
+on:
+  schedule:
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install openai
+
+      - name: Generate message
+        env:
+          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+          GROQ_MODEL: ${{ secrets.GROQ_MODEL }}
+        run: |
+          python - <<'PY'
+          import os
+          import re
+          from datetime import datetime, timezone
+          from openai import OpenAI
+
+          client = OpenAI(
+              api_key=os.environ["GROQ_API_KEY"],
+              base_url="https://api.groq.com/openai/v1"
+          )
+
+          response = client.chat.completions.create(
+              model=os.environ["GROQ_MODEL"],
+              messages=[
+                  {
+                      "role": "system",
+                      "content": (
+                          "Generate one concise, original message of the day. "
+                          "Maximum 20 words. No introduction, markdown, "
+                          "or quotation marks."
+                      )
+                  },
+                  {
+                      "role": "user",
+                      "content": "Give me today's message."
+                  }
+              ],
+              temperature=0.1,
+              max_tokens=200
+          )
+
+          message = response.choices[0].message.content.strip()
+          date = datetime.now(timezone.utc).strftime("%Y-%m-%d")
+
+          start = "<!-- CUSTOM_CONTENT_START -->"
+          end = "<!-- CUSTOM_CONTENT_END -->"
+
+          with open("README.md", "r", encoding="utf-8") as file:
+              readme = file.read()
+
+          pattern = re.escape(start) + r".*?" + re.escape(end)
+
+          replacement = (
+              f"{start}\n"
+              f"**Message of the Day — {date}**\n\n"
+              f"> {message}\n"
+              f"{end}"
+          )
+
+          updated, count = re.subn(
+              pattern,
+              lambda _: replacement,
+              readme,
+              flags=re.DOTALL
+          )
+
+          if count != 1:
+              raise RuntimeError(
+                  f"Expected exactly one custom content section, found {count}"
+              )
+
+          with open("README.md", "w", encoding="utf-8") as file:
+              file.write(updated)
+
+          PY
+
+      - name: Commit changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md
+
+          if ! git diff --cached --quiet; then
+            git commit -m "chore: update message of the day"
+            git push
+          fi

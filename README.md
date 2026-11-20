@@ -7,3 +7,6 @@ I mainly work with **Python, Go and Java**, with experience across backend syste
 I'm particularly interested in **system design, performance, infrastructure and LLMs**.
 
 I also have a [personal page](https://ptfl.lcb936.com/) where I publish some interesting things that I've learned over time about Agents and LLM-powered systems.
+
+<!-- CUSTOM_CONTENT_START -->
+<!-- CUSTOM_CONTENT_END -->
