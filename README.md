@@ -11,5 +11,5 @@ I also have a [personal page](https://ptfl.lcb936.com/) where I publish some int
 <!-- CUSTOM_CONTENT_START -->
 **Message of the Day — 2026-11-20**
 
-> Small consistent actions compound into extraordinary results over time.
+> Small consistent actions compound into massive results over time.
 <!-- CUSTOM_CONTENT_END -->
