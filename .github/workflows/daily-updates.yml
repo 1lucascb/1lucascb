@@ -57,7 +57,7 @@ jobs:
                       "content": "Give me today's message."
                   }
               ],
-              temperature=0.4,
+              temperature=0.8,
               max_tokens=200
           )
 
