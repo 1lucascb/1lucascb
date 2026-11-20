@@ -9,4 +9,7 @@ I'm particularly interested in **system design, performance, infrastructure and 
 I also have a [personal page](https://ptfl.lcb936.com/) where I publish some interesting things that I've learned over time about Agents and LLM-powered systems.
 
 <!-- CUSTOM_CONTENT_START -->
+**Message of the Day — 2026-11-20**
+
+> Small consistent actions compound into extraordinary results over time.
 <!-- CUSTOM_CONTENT_END -->
