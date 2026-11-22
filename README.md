@@ -9,7 +9,7 @@ I'm particularly interested in **system design, performance, infrastructure and 
 I also have a [personal page](https://ptfl.lcb936.com/) where I publish some interesting things that I've learned over time about Agents and LLM-powered systems.
 
 <!-- CUSTOM_CONTENT_START -->
-**Message of the Day — 2026-11-21**
+**Message of the Day — 2026-11-22**
 
-> Your calmest moment is the most powerful tool you own today.
+> Slow down to notice the small, quiet moments that quietly restore your spirit.
 <!-- CUSTOM_CONTENT_END -->
