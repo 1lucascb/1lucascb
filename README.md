@@ -1,15 +1,15 @@
 # Hey, I'm Lucas 👋
 
-I'm a **Back-End Software Developer** who enjoys building things from scratch and understanding how they work under the hood.
+I'm a **Back-End Software Engineer** focused on building reliable, scalable systems and understanding the engineering principles behind them.
 
-I mainly work with **Python, Go and Java**, with experience across backend systems, APIs, distributed systems, databases, messaging, cloud infrastructure, and AI agent development.
+My primary technologies are **Python, Go, and Java**. I've worked across backend architecture, API development, distributed systems, databases, messaging, cloud infrastructure, and AI-powered applications.
 
-I'm particularly interested in **system design, performance, infrastructure and LLMs**.
+My main interests include **system design, distributed systems, performance engineering, cloud infrastructure, and LLM-based systems**.
 
-I also have a [personal page](https://ptfl.lcb936.com/) where I publish some interesting things that I've learned over time about Agents and LLM-powered systems.
+I also write about things I learn and build, particularly around AI agents and LLM-powered architectures, on my [personal website](https://ptfl.lcb936.com/).
 
 <!-- CUSTOM_CONTENT_START -->
-**Message of the Day — 2026-11-20**
+**Message of the Day — 2026-11-25**
 
-> Small consistent actions compound into massive results over time.
+> Kindness is not just an act, but a habit that quietly reshapes the world.
 <!-- CUSTOM_CONTENT_END -->
