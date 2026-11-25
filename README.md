@@ -9,7 +9,7 @@ My main interests include **system design, distributed systems, performance engi
 I also write about things I learn and build, particularly around AI agents and LLM-powered architectures, on my [personal website](https://ptfl.lcb936.com/).
 
 <!-- CUSTOM_CONTENT_START -->
-**Message of the Day — 2026-11-24**
+**Message of the Day — 2026-11-25**
 
-> Small acts of kindness ripple outward, reshaping the world in ways you will never see.
+> Kindness is not just an act, but a habit that quietly reshapes the world.
 <!-- CUSTOM_CONTENT_END -->
