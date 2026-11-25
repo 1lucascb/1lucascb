@@ -379,7 +379,8 @@ def update_readme(markdown: str, category_name: str) -> None:
     date = local_now().strftime("%Y-%m-%d")
     replacement = (
         f"{start}\n"
-        f"**Daily Engineering Digest — {date}** · `{category_name}`\n\n"
+        "---\n"
+        f"**☕ Daily Engineering Digest - {date}** · `{category_name}`\n\n"
         f"{markdown}\n"
         f"{end}"
     )
