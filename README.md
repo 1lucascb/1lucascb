@@ -9,7 +9,14 @@ My main interests include **system design, distributed systems, performance engi
 I also write about things I learn and build, particularly around AI agents and LLM-powered architectures, on my [personal website](https://ptfl.lcb936.com/).
 
 <!-- CUSTOM_CONTENT_START -->
-**Message of the Day — 2026-11-25**
+**Daily Engineering Digest — 2026-11-25** · `Hacker News`
 
-> Kindness is not just an act, but a habit that quietly reshapes the world.
+### The Matrix Multiplication Exponent is 9/4
+
+OpenAI has released a preprint claiming a breakthrough in linear algebra, reducing the exponent of matrix multiplication to **9/4 (2.25)**. This significant theoretical improvement over previous bounds has generated intense debate in the comments (529+), with experts scrutinizing the proof's validity and implications for algorithmic complexity.
+
+**Technical Takeaway:**
+While this is a theoretical milestone, it does not immediately translate to practical optimization for standard backend workloads. However, it highlights the ongoing race to improve fundamental algorithmic bounds, which may eventually impact high-performance computing and AI training efficiency.
+
+**Source:** [The matrix multiplication exponent is nine fourths [pdf]](https://github.com/openai/math/blob/main/preprints/The-matrix-multiplication-exponent-is-nine-fourths-November-24-2026/paper.pdf)
 <!-- CUSTOM_CONTENT_END -->
