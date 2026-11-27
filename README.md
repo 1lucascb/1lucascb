@@ -10,18 +10,15 @@ I also write about things I learn and build, particularly around AI agents and L
 
 <!-- CUSTOM_CONTENT_START -->
 ---
-**☕ Daily Engineering Digest - 2026-11-26** · `Recently Created Repositories`
+**☕ Daily Engineering Digest - 2026-11-27** · `Hacker News`
 
-### 🚀 New & Notable Repositories
+## Hacker News Digest
 
-Recent GitHub activity highlights a strong trend toward **local-first AI processing** and **high-performance Go binaries** for system-level tasks.
+| Project | Score | Takeaway |
+| :--- | :--- | :--- |
+| [Intel One Mono](https://github.com/intel/intel-one-mono) | 490 | A highly regarded open-source monospaced font, ideal for terminal-based development environments. |
+| [Nextcloud Office Desktop](https://nextcloud.com/blog/euro-office-comes-to-your-desktop-with-the-nextcloud-office-desktop-app/) | 413 | Brings collaborative office suite capabilities to local desktops, expanding self-hosted productivity options. |
+| [Moat](https://commandcode.ai/moat) | 268 | An emerging OpenRouter alternative for managing AI model access and routing. |
 
-| Repository | Language | Stars | Key Feature |
-| :--- | :---: | :---: | :--- |
-| [neonclipping](https://github.com/iamajmeena/neonclipping) | Python | 2,637 | Local LLM-powered 9:16 video clipping engine |
-| [Xbox2Windows](https://github.com/R0Y00/Xbox2Windows) | Python | 1,959 | Static recompilation research for Xbox Series X\|S on x64 |
-| [govault](https://github.com/txchen/govault) | Go | 193 | Zero-CGO native desktop client for Vaultwarden |
-
-**Technical Takeaway:**
-The popularity of `neonclipping` (2.6k stars) signals a shift away from cloud-dependent media pipelines toward **local LLM integration** for privacy-preserving content generation. Meanwhile, `govault` demonstrates the value of **zero-CGO Go binaries** for desktop clients, eliminating runtime dependencies while maintaining native performance for security-focused applications.
+The most discussed story, scoring 661 points, involves The New York Times warning photographers against updating Photoshop due to its new AI features ([The Verge](https://www.theverge.com/ai-artificial-intelligence/1041227/the-new-york-times-warns-photographers-not-to-update-photoshop-over-ai-features)). This highlights the growing friction between proprietary AI integrations and professional creative workflows. For backend engineers, the rise of tools like Moat and the continued popularity of Intel One Mono reflect the industry's shift toward specialized, open-source infrastructure for both development environments and AI orchestration.
 <!-- CUSTOM_CONTENT_END -->
